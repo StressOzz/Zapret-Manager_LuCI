@@ -30,6 +30,16 @@
 
 ---
 
+## Установка
+
+В **SSH**
+
+```
+sh <(wget -qO - https://raw.githubusercontent.com/StressOzz/Zapret-Manager/main/ZapretManager_LuCI.sh)
+```
+
+После установки в LuCI появляется раздел **Zapret Manager**.
+
 ### Zapret
 
 Установка, обновление, удаление и управление состоянием Zapret.
@@ -142,16 +152,6 @@ Mihomo не является частью Zapret, но управление им
 Проект рассчитан на OpenWrt с пакетным менеджером `opkg` или `apk`.
 
 Менеджер сам определяет используемый пакетный менеджер и использует соответствующие команды.
-
-## Установка
-
-В **SSH**
-
-```
-sh <(wget -qO - https://raw.githubusercontent.com/StressOzz/Zapret-Manager/main/ZapretManager_LuCI.sh)
-```
-
-После установки в LuCI появляется раздел **Zapret Manager**.
 
 ## Удаление
 
