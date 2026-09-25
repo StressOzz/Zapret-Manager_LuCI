@@ -30,7 +30,7 @@
 
 ---
 
-## Установка
+## Установка и обновление
 
 В **SSH**
 
@@ -38,7 +38,13 @@
 sh <(wget -qO - https://raw.githubusercontent.com/StressOzz/Zapret-Manager/main/ZapretManager_LuCI.sh)
 ```
 
-После установки в LuCI появляется раздел **Zapret Manager**.
+После установки, перейдите в браузере по адресу **http://192.168.1.1:7788/**
+таже в **LuCI** появляется раздел **Zapret Manager**.
+
+> [!IMPORTANT]
+> При обновлении **ОБЯЗАТЕЛЬНО** очищать кэш браузера !!
+
+---
 
 ### Zapret
 
@@ -82,7 +88,6 @@ sh <(wget -qO - https://raw.githubusercontent.com/StressOzz/Zapret-Manager/main/
 Это сделано специально: результат теста и изменение рабочей конфигурации — разные действия.
 
 ## Zapret2
-
 
 Для Zapret2 менеджер использует отдельные файлы конфигурации и custom-скрипты.
 
