@@ -1,4 +1,4 @@
-<h1 align="center">Zapret Manager LuCI</h1>
+<h1 align="center">Zapret Manager WEB + LuCI</h1>
 
 **Zapret Manager LuCI** — LuCI-панель для OpenWrt, которая собирает управление Zapret и связанными инструментами в одном месте.
 
